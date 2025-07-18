@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Bioquímica UAGRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Curricular - Bioquímica UAGRM</h1>
+
+  <div id="filtros">
+    <label>Filtrar por semestre:
+      <select id="filtro-semestre">
+        <option value="">Todos</option>
+      </select>
+    </label>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Materia</th>
+        <th>Semestre</th>
+        <th>Créditos</th>
+        <th>Horas</th>
+        <th>Prerequisitos</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-materias"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
