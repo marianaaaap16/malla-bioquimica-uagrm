@@ -1,0 +1,483 @@
+[
+  {
+    "codigo": "QMC101",
+    "nombre": "Química General",
+    "nivel": 1,
+    "creditos": 5,
+    "horas": 4,
+    "prerequisitos": ["CUP-PSA"]
+  },
+  {
+    "codigo": "BIO108",
+    "nombre": "Biología Celular",
+    "nivel": 1,
+    "creditos": 5,
+    "horas": 4,
+    "prerequisitos": ["CUP-PSA"]
+  },
+  {
+    "codigo": "ECO100",
+    "nombre": "Ecología",
+    "nivel": 1,
+    "creditos": 5,
+    "horas": 4,
+    "prerequisitos": ["CUP-PSA"]
+  },
+  {
+    "codigo": "BQM100",
+    "nombre": "Fundamentos de la Bioquímica",
+    "nivel": 1,
+    "creditos": 3,
+    "horas": 3,
+    "prerequisitos": ["CUP-PSA"]
+  },
+{
+    "codigo": "FIS102",
+    "nombre": "Física",
+    "nivel": 1,
+    "creditos": 3,
+    "horas": 3,
+    "prerequisitos": ["CUP-PSA"]
+  },
+  {
+    "codigo": "MAT102",
+    "nombre": "Matemáticas",
+    "nivel": 1,
+    "creditos": 4,
+    "horas": 3,
+    "prerequisitos": ["CUP-PSA"]
+},
+  {
+    "codigo": "MAT104",
+    "nombre": "Bioestadística",
+    "nivel": 2,
+    "creditos": 4,
+    "horas": 4,
+    "prerequisitos": ["MAT102"]
+  },
+{
+    "codigo": "BIO109",
+    "nombre": "Genética",
+    "nivel": 2,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BIO108"]
+  },
+{
+
+    "codigo": "BIO118",
+    "nombre": "Anatomía Humana",
+    "nivel": 2,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BIO108"]
+  },
+{
+    "codigo": "QMC102",
+    "nombre": "Química Inorgánica",
+    "nivel": 2,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["QMC101"]
+},
+{
+    "codigo": "QMC105",
+    "nombre": "Química Orgánica I",
+    "nivel": 2,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["QMC101"]
+},
+{
+    "codigo": "BQM101",
+    "nombre": "Biomoléculas",
+    "nivel": 2,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM100"]
+},
+{
+    "codigo": "BIO209",
+    "nombre": "Fisiología Humana",
+    "nivel": 3,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM118"]
+},
+{
+    "codigo": "QMC202",
+    "nombre": "Química Analítica I",
+    "nivel": 3,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["QMC102"]
+},
+{
+    "codigo": "QMC207",
+    "nombre": "Química Orgánica II",
+    "nivel": 3,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["QMC105"]
+},
+{
+    "codigo": "QMC208",
+    "nombre": "Fisicoquímica I",
+    "nivel": 3,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["FIS102", "QMC102"]
+},
+{
+    "codigo": "BQM200",
+    "nombre": "Enzimología",
+    "nivel": 3,
+    "creditos": 4,
+    "horas": 5,
+    "prerequisitos": ["BQM101"]
+},
+{
+    "codigo": "MAT205",
+    "nombre": "Metodología de la Investigación",
+    "nivel": 3,
+    "creditos": 4,
+    "horas": 4,
+    "prerequisitos": ["MAT104"]
+},
+{
+    "codigo": "PIB200",
+    "nombre": "Prácticum I",
+    "nivel": 3,
+    "creditos": 2,
+    "horas": 4,
+    "prerequisitos": ["BIO109", "BIO118", "BQM101", "MAT104", "QMC102", "QMC105"]
+},
+{
+    "codigo": "SAP200",
+    "nombre": "Salud Pública",
+    "nivel": 4,
+    "creditos": 4,
+    "horas": 4,
+    "prerequisitos": ["MAT205"]
+},
+{
+    "codigo": "QMC203",
+    "nombre": "Química Analítica II",
+    "nivel": 4,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["QMC202"]
+},
+{
+    "codigo": "QMC209",
+    "nombre": "Fisicoquímica II",
+    "nivel": 4,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["QMC208"]
+},
+{
+    "codigo": "QMC210",
+    "nombre": "Química Orgánica III",
+    "nivel": 4,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["QMC207"]
+},
+{
+    "codigo": "BQM210",
+    "nombre": "Metabolismo I",
+    "nivel": 4,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM200"]
+},
+{
+    "codigo": "BQM201",
+    "nombre": "Farmacología",
+    "nivel": 4,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["BQM200", "BIO209"]
+},
+{
+    "codigo": "PIB201",
+    "nombre": "Prácticum II",
+    "nivel": 4,
+    "creditos": 2,
+    "horas": 4,
+    "prerequisitos": ["PIB200"]
+},
+{
+    "codigo": "BIO308",
+    "nombre": "Biología Molecular",
+    "nivel": 5,
+    "creditos": 4,
+    "horas": 5,
+    "prerequisitos": ["BIO109", "QMC210"]
+},
+{
+    "codigo": "QMC306",
+    "nombre": "Análisis Instrumental",
+    "nivel": 5,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["QMC203", "QMC209"]
+},
+{
+    "codigo": "BQM300",
+    "nombre": "Metabolismo II",
+    "nivel": 5,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM201", "QMC207"]
+},
+{
+    "codigo": "BQM303",
+    "nombre": "Micología",
+    "nivel": 5,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BIO209"]
+},
+{
+    "codigo": "BQM305",
+    "nombre": "Inmunología I",
+    "nivel": 5,
+    "creditos": 3,
+    "horas": 5,
+    "prerequisitos": ["BQM201"]
+},
+{
+    "codigo": "BIO308",
+    "nombre": "Bacteriología I",
+    "nivel": 5,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM209"]
+},
+{
+    "codigo": "PIB300",
+    "nombre": "Prácticum III",
+    "nivel": 5,
+    "creditos": 2,
+    "horas": 4,
+    "prerequisitos": ["PIB201"]
+},
+{
+    "codigo": "BQM310",
+    "nombre": "Inmunología II",
+    "nivel": 6,
+    "creditos": 3,
+    "horas": 5,
+    "prerequisitos": ["BQM305"]
+},
+{
+    "codigo": "BQM309",
+    "nombre": "Bacteriología II",
+    "nivel": 6,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BQM308"]
+},
+{
+    "codigo": "BQM311",
+    "nombre": "Parasitología",
+    "nivel": 6,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BIO209"]
+},
+{
+    "codigo": "BQM314",
+    "nombre": "Hematología I",
+    "nivel": 6,
+    "creditos": 3,
+    "horas": 5,
+    "prerequisitos": ["BIO209", "QMC306"]
+},
+{
+    "codigo": "BQM315",
+    "nombre": "Análisis Clínico I",
+    "nivel": 6,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["QMC306"]
+},
+{
+    "codigo": "BQM320",
+    "nombre": "Bioquímica de la Nutrición",
+    "nivel": 6,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["BQM300"]
+},
+{
+    "codigo": "PIB301",
+    "nombre": "Prácticum III",
+    "nivel": 6,
+    "creditos": 2,
+    "horas": 4,
+    "prerequisitos": ["PIB300"]
+},
+{
+    "codigo": "ADM407",
+    "nombre": "Deontología y Legislación",
+    "nivel": 7,
+    "creditos": 4,
+    "horas": 4,
+    "prerequisitos": ["BQM309", "BQM310", "BQM311", "BQM314", "BQM315", "BQM320", "PIB301"]
+},
+{
+    "codigo": "BQM400",
+    "nombre": "Control de Calidad",
+    "nivel": 7,
+    "creditos": 4,
+    "horas": 4,
+    "prerequisitos": ["BQM315"]
+},
+{
+    "codigo": "BQM405",
+    "nombre": "Virología",
+    "nivel": 7,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["BIO308"]
+},
+{
+    "codigo": "BQM414",
+    "nombre": "Hematología II",
+    "nivel": 7,
+    "creditos": 3,
+    "horas": 5,
+    "prerequisitos": ["BQM314"]
+},
+{
+    "codigo": "BQM415",
+    "nombre": "Análisis Clínicos II",
+    "nivel": 7,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["BQM315"]
+},
+{
+    "codigo": "BQM420",
+    "nombre": "Bioquímica de los Alimentos",
+    "nivel": 7,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["BIO320"]
+},
+{
+    "codigo": "PIB400",
+    "nombre": "Prácticum IV",
+    "nivel": 7,
+    "creditos": 2,
+    "horas": 4,
+    "prerequisitos": ["PIB301"]
+},
+{
+    "codigo": "BQM407",
+    "nombre": "Microbiología Clínica",
+    "nivel": 8,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["BQM405"]
+},
+{
+    "codigo": "BQM418",
+    "nombre": "Patología Clínica",
+    "nivel": 8,
+    "creditos": 5,
+    "horas": 6,
+    "prerequisitos": ["BIO209","BQM415"]}
+},
+{
+    "codigo": "BQM425",
+    "nombre": "Citopatología",
+    "nivel": 8,
+    "creditos": 3,
+    "horas": 4,
+    "prerequisitos": ["BIO108"]
+},
+{
+    "codigo": "BQM430",
+    "nombre": "Bromatología I",
+    "nivel": 8,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["BQM420", "QMC203"]
+},
+{
+    "codigo": "BQM435",
+    "nombre": "Toxicología General",
+    "nivel": 8,
+    "creditos": 4,
+    "horas": 6,
+    "prerequisitos": ["BQM320", "FMC200"]
+},
+{
+    "codigo": "BQM440",
+    "nombre": "Biotecnología",
+    "nivel": 8,
+    "creditos":3,
+    "horas": 5,
+    "prerequisitos": ["BIO308"]
+},
+{
+    "codigo": "PIB401",
+    "nombre": "Prácticum V",
+    "nivel": 8,
+    "creditos":2,
+    "horas": 4,
+    "prerequisitos": ["PIB400"]
+},
+{
+    "codigo": "ADM508",
+    "nombre": "Administración y Gestión",
+    "nivel": 9,
+    "creditos":2,
+    "horas": 2,
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+},
+{
+    "codigo": "MAT504",
+    "nombre": "Diseno Experimental",
+    "nivel": 9,
+    "creditos":2,
+    "horas": 2,
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+},
+{
+    "codigo": "PIB503",
+    "nombre": "Practica Integradora",
+    "nivel": 9,
+    "creditos":5,
+    "horas": 8,
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+},
+{
+    "codigo": "PIB504",
+    "nombre": "Practica Integradora",
+    "nivel": 9,
+    "creditos":5,
+    "horas": 7,
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+},
+{
+    "codigo": "PIB505",
+    "nombre": "Practica Integradora",
+    "nivel": 9,
+    "creditos":5,
+    "horas": 65
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+},
+{
+    "codigo": "PIB506",
+    "nombre": "Practica Integradora",
+    "nivel": 9,
+    "creditos":5,
+    "horas": 5,
+    "prerequisitos": ["BQM407", "BQM418", "BQM425", "BQM430", "BQM435", "BQM440", "PIB401"]
+]
+
