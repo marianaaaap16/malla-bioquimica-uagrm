@@ -1,0 +1,74 @@
+[
+  {
+    "codigo": "QMC101",
+    "nombre": "Química General",
+    "nivel": 1,
+    "creditos": 5,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "BIO108",
+    "nombre": "Biología Celular",
+    "nivel": 1,
+    "creditos": 5,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "ECO100",
+    "nombre": "Ecología",
+    "nivel": 1,
+    "creditos": 5,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "BQM100",
+    "nombre": "Fundamentos de la Bioquímica",
+    "nivel": 1,
+    "creditos": 3,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "FIS102",
+    "nombre": "Física",
+    "nivel": 1,
+    "creditos": 3,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "MAT102",
+    "nombre": "Matemáticas",
+    "nivel": 1,
+    "creditos": 4,
+    "prerequisitos": [
+      "CUP-PSA"
+    ]
+  },
+  {
+    "codigo": "MAT104",
+    "nombre": "Bioestadística",
+    "nivel": 2,
+    "creditos": 4,
+    "prerequisitos": [
+      "MAT102"
+    ]
+  },
+  {
+    "codigo": "BIO109",
+    "nombre": "Genética",
+    "nivel": 2,
+    "creditos": 5,
+    "prerequisitos": [
+      "BIO108"
+    ]
+  }
+]
